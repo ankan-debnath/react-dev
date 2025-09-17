@@ -6,11 +6,15 @@ function App() {
   
   function increment() {
     setCount(count + 1)
+    setCount(count + 1)
+    setCount(count + 1)
+    setCount(count + 1)
+    setCount(count + 1)
     console.log(count)
   }
   function decrement() {
     setCount(Math.max(count - 1, 0))
-    console.log(count)
+    console.log(count)  
   }
   return (
     <>
